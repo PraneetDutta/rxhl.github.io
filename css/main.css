@@ -64,7 +64,7 @@ body {
  
 .nav a.active {
   background-color: ghostwhite;
-  color: #444;
+  color: midnightblue   ;
   cursor: default;
 }
  
@@ -77,25 +77,10 @@ body {
     font-size: 1.4em;
   }
  
-  /* Option 1 - Display Inline */
   .nav li {
     display: inline-block;
     margin-right: -4px;
   }
- 
-  /* Options 2 - Float
-  .nav li {
-    float: left;
-  }
-  .nav ul {
-    overflow: auto;
-    width: 600px;
-    margin: 0 auto;
-  }
-  .nav {
-    background-color: #444;
-  }
-  */
 }
 
 .img-circle {
@@ -112,4 +97,16 @@ body {
     text-align: justify; 
     margin-top: 40px;
     font-size: 19px;
+}
+
+.linker a {
+ 	color: midnightblue;
+  	text-decoration: none;
+  	border-bottom: 1.5px midnightblue dotted;
+}
+
+.linker a:hover {
+  	color: royalblue;
+  	text-decoration: none;
+  	border-bottom: 1.5px midnightblue solid;
 }

@@ -62,9 +62,9 @@ body {
   background-color: midnightblue;
 }
  
-.nav a.active {
+.nav a:active {
   background-color: ghostwhite;
-  color: midnightblue   ;
+  color: midnightblue;
   cursor: default;
 }
  

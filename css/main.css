@@ -36,7 +36,7 @@ body {
 
 .nav ul {
   list-style: none;
-  background-color: lightgrey;
+  background-color: #c7c7c7;
   text-align: center;
   padding: 0;
   margin: 0;
@@ -69,6 +69,24 @@ body {
 }
 
 .AboutSelected {
+	background-color: ghostwhite;
+	color: midnightblue;
+ 	cursor: default;
+}
+
+.ProjectsSelected {
+	background-color: ghostwhite;
+	color: midnightblue;
+ 	cursor: default;
+}
+
+.ExpSelected {
+	background-color: ghostwhite;
+	color: midnightblue;
+ 	cursor: default;
+}
+
+.MiscSelected {
 	background-color: ghostwhite;
 	color: midnightblue;
  	cursor: default;

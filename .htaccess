@@ -6,5 +6,5 @@ RewriteRule ^(.*)$ $1.html
 # Remove www from any URLs that have them:
 RewriteEngine On
 RewriteBase /
-RewriteCond %{HTTP_HOST} !^domain.com$ [NC]
-RewriteRule ^(.*)$ http://domain.com/$1 [L,R=301]
+RewriteCond %{HTTP_HOST} !^rahulxsharma.com$ [NC]
+RewriteRule ^(.*)$ http://rahulxsharma.com.com/$1 [L,R=301]

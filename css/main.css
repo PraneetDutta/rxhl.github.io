@@ -136,9 +136,8 @@ body {
 }
 
 .linker a {
- 	color: midnightblue;
+ 	color: royalblue;
   	text-decoration: none;
-  	border-bottom: 1.5px midnightblue dotted;
 }
 
 .linker a:hover {

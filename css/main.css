@@ -135,6 +135,20 @@ body {
 
 }
 
+.intro2 {
+	width: 80%;
+    margin: auto;
+}
+
+.intro3 {
+	width: 80%;
+    margin: auto;
+	text-align: left;
+	font-size: 19px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
 .linker a {
  	color: royalblue;
   	text-decoration: none;
@@ -154,6 +168,12 @@ body {
 .linepics2 {
 	display: inline-block;
 	margin: 20px;
+	vertical-align: top;
+
+}
+
+.linepics3 {
+	display: inline-block;
 	vertical-align: top;
 
 }
@@ -246,8 +266,35 @@ body {
 	text-align: justify;
 }
 
+.caption3 {
+	font-family: 'Open Sans', sans-serif;
+	width: 500px;
+	font-weight: 300;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: justify;
+}
+
+.caption4 {
+	font-family: 'Open Sans', sans-serif;
+	width: 400px;
+	font-weight: 300;
+	margin-top: 10px;
+	font-size: 1em;
+	text-align: justify;
+}
+
 .headerBRB {
 	padding-left: 65px;
+	text-align: left;
+	font-size: 1.1em;
+	font-family: 'Roboto', sans-serif;   
+	font-weight: 700;
+
+}
+
+.headerBosch {
+	padding-left: 100px;
 	text-align: left;
 	font-size: 1.1em;
 	font-family: 'Roboto', sans-serif;   
@@ -292,11 +339,36 @@ body {
 	font-weight: 700;
 }
 
+.headerextra {
+	padding-left: 40px;
+	text-align: left;
+	font-size: 1.1em;
+	font-family: 'Roboto', sans-serif;   
+	font-weight: 700;
+}
+
+.headerTA {
+	padding-left: 80px;
+	text-align: left;
+	font-size: 1.1em;
+	font-family: 'Roboto', sans-serif;   
+	font-weight: 700;
+}
+
+
 .boldtext {
 	font-family: 'Roboto', sans-serif;   
 	font-weight: 700;
 	font-size: 1em;
 	color: dimgrey;
+}
+
+.boldtext2 {
+	font-family: 'Roboto', sans-serif;   
+	font-weight: 700;
+	font-size: 2.5em;
+	color: #2d2d2d;
+	text-align: center;
 }
 
 #brb.propic {
@@ -375,4 +447,35 @@ body {
 #headphone.propic:hover  {
   filter: none;
   -webkit-filter: grayscale(0%);
+}
+
+.bosch {
+	margin: auto;
+}
+
+.boschpic {
+	padding: 5px;
+	height: 200px; 
+	width: 200px;
+	border-radius: 50%;
+	border-style: solid;
+    border-width: 1px;
+	border-color: black;	
+}
+
+.extrapic {
+	height: 200px; 
+	width: 200px;
+	border-radius: 50%;
+	
+}
+
+.date{
+	padding-left: 135px;
+	font-style: italic;
+}
+
+ul.lister {
+	list-style-type: square;
+	font-family: 'Open Sans', sans-serif;
 }

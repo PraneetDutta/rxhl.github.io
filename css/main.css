@@ -172,6 +172,12 @@ body {
 
 }
 
+.linepix {
+	display: inline-block;
+	vertical-align: top;
+
+}
+
 .linepics3 {
 	display: inline-block;
 	vertical-align: top;
@@ -285,7 +291,7 @@ body {
 }
 
 .headerBRB {
-	padding-left: 65px;
+	padding-left: 80px;
 	text-align: left;
 	font-size: 1.1em;
 	font-family: 'Roboto', sans-serif;   
@@ -468,6 +474,16 @@ body {
 	width: 200px;
 	border-radius: 50%;
 	
+}
+
+.skillpic {
+	height: 50px; 
+	width: 50px;	
+}
+
+.skillpic2 {
+	height: 45px; 
+	width: 100px;	
 }
 
 .date{
